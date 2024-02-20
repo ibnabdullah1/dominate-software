@@ -5,16 +5,13 @@ import Movie from "../Components/Movie/Movie";
 import Demo from "../From/Demo";
 import AddHotelName from "../Components/AddHotel/AddHotelName";
 import Hotel from "../Components/AddHotel/Hotel";
-<<<<<<< HEAD
 import Rooms from "../Components/AddHotel/Rooms";
 import RoomType from "../Components/AddHotel/RoomType";
 import BedType from "../Components/AddHotel/BedType";
 import HotelFacility from "../Components/AddHotel/HotelFacility";
 import HotelFacilityType from "../Components/AddHotel/HotelFacilityType";
 import HotelSearch from "../Components/AddHotel/HotelSearch";
-=======
 import Report from "../Pages/Report";
->>>>>>> 60ca7f6784fb536c7f71a162a41e2266ff78ed9b
 import HotelFacilities from "../Pages/HotelFacilities";
 
 const router = createBrowserRouter([
