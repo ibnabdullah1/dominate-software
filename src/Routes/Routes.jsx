@@ -6,6 +6,7 @@ import Demo from "../From/Demo";
 import AddHotelName from "../Components/AddHotel/AddHotelName";
 import Hotel from "../Components/AddHotel/Hotel";
 import Report from "../Pages/Report";
+import HotelFacilities from "../Pages/HotelFacilities";
 
 const router = createBrowserRouter([
   {
@@ -34,8 +35,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/reports",
-        element: <Report/>
-      }
+        element: <Report />,
+      },
+      {
+        path: "/hotel-facilities",
+        element: <HotelFacilities />,
+      },
     ],
   },
 ]);
