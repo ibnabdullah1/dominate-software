@@ -21,8 +21,8 @@ const Header = () => {
             <Nav.Link href="/hotels">Hotels</Nav.Link>
             <Nav.Link href="/add-hotel-name">Add Hotel Name</Nav.Link>
             <Nav.Link href="/rooms">Rooms</Nav.Link>
-            <Nav.Link href="/room-types">Room Types</Nav.Link>
-            <Nav.Link href="/bed-types">Bed Types</Nav.Link>
+            <Nav.Link href="/room-type">Room Types</Nav.Link>
+            <Nav.Link href="/bed-type">Bed Types</Nav.Link>
             <Nav.Link href="/reports">Reports</Nav.Link>
             <Nav.Link href="/reviews">Reviews</Nav.Link>
             <Nav.Link href="/hotel-facilities">Hotel Facilities</Nav.Link>

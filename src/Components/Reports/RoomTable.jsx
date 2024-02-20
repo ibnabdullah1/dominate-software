@@ -2,7 +2,7 @@ import Table from "react-bootstrap/Table";
 
 function RoomTable() {
   return (
-    <Table  bordered hover>
+    <Table bordered hover>
       <thead>
         <tr>
           <th>Room Id</th>
