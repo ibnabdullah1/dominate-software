@@ -5,6 +5,7 @@ import Movie from "../Components/Movie/Movie";
 import Demo from "../From/Demo";
 import AddHotelName from "../Components/AddHotel/AddHotelName";
 import Hotel from "../Components/AddHotel/Hotel";
+import Report from "../Pages/Report";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         path: "/:id",
         element: <Movie />,
       },
+      {
+        path: "/reports",
+        element: <Report/>
+      }
     ],
   },
 ]);
