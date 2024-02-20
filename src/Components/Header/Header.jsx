@@ -17,31 +17,21 @@ const Header = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/hotels">Hotels</Nav.Link>
+            <Nav.Link href="/add-hotel-name">Add Hotel Name</Nav.Link>
+            <Nav.Link href="/rooms">Rooms</Nav.Link>
+            <Nav.Link href="/room-types">Room Types</Nav.Link>
+            <Nav.Link href="/bed-types">Bed Types</Nav.Link>
+            <Nav.Link href="/reports">Reports</Nav.Link>
+            <Nav.Link href="/reviews">Reviews</Nav.Link>
+            <Nav.Link href="/hotel-facilities">Hotel Facilities</Nav.Link>
+            <Nav.Link href="/facility-types">Facility Types</Nav.Link>
+            <Nav.Link href="/hotel-settings">Hotel Settings</Nav.Link>
+            <Nav.Link href="/hotel-search">Hotel Search</Nav.Link>
+
+            <Nav.Link href="/demo">Demo</Nav.Link>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
