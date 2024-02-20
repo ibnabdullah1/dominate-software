@@ -1,0 +1,21 @@
+.input {
+  border: 1px solid #e0e0e0;
+  width: 400px;
+  background-color: white;
+  color: #3b3b3c;
+  outline: none;
+}
+
+.input:focus {
+  border: 1px solid #4d4d4e;
+}
+
+.input::ring {
+  border: none;
+}
+.inputSelect {
+  width: 400px;
+  background-color: white;
+  color: #3b3b3c;
+  outline: none;
+}
